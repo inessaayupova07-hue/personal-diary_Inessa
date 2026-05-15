@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+header {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.search-form {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.entry-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    transition: box-shadow 0.2s;
+}
+
+.entry-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.entry-card h3 {
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.entry-card .date {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.entry-detail {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.entry-detail h2 {
+    color: #4CAF50;
+    margin-bottom: 5px;
+}
+
+.entry-detail .date {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.entry-detail .content {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.actions a, .actions button {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn, .actions a:first-child {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.entry-form div {
+    margin-bottom: 15px;
+}
+
+.entry-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.entry-form input, .entry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.save-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: #999;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
